@@ -17,8 +17,8 @@ body {
 .recherche {
     margin-top: 100px;
     background-color: rgb(210, 255, 12);
-    width: 1500px;
-    height: 100px;
+    width: 90%;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +48,7 @@ body {
     background-color: rgb(210, 255, 12);
     height: 70px;
     width: 550px;
-    margin-right: 700px;
+    margin-right: 600px;
     margin-top: 10px;
     font-size: 2rem;
     color: black;
@@ -64,9 +64,8 @@ body {
 }
 
 .resultatContainer {
-    width: 2500px;
+    width: 90vw;
     height: auto;
-    
     margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -84,7 +83,7 @@ body {
    display: flex;
    justify-content: center;
    align-items: center;
-    font-size: 2rem;
+    font-size: 1.2rem;
     margin-bottom: 20px;
    
     border-radius: 30px;
@@ -98,14 +97,14 @@ body {
 
 .mealModal {
     background-color: rgb(117, 117, 161);
-    width: 1500px;
-    height: 756px;
+    width: 80%;
+    height: 70%;
     position: absolute;
     z-index: 10;
     top:100px;
     display: none;
-    grid-template-columns: 750px 750px;
-    grid-template-rows: 100px 200px 450px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30% 70%;
     border-radius: 40px;
     color:white;
 }
@@ -118,8 +117,7 @@ body {
 }
 .elementModal:nth-child(1) {
     grid-column: 1;
-    grid-row: 1 / 4;
-    height: auto;
+    grid-row: 1;
     width: 100%;
     border-radius: 40px;
 }
@@ -131,37 +129,39 @@ body {
 }
 
 .elementModal:nth-child(2) {
-    grid-column: 2;
-    grid-row: 1;
-    height: 100px;
+    grid-column: 1;
+    grid-row: 2;
+    height: 10vh;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: rgb(22, 20, 24);
+    margin-top: 66%;
 }
 .elementModal:nth-child(3) {
     grid-column: 2;
-    grid-row: 2;
-    height: 200px;
+    grid-row: 1;
     display: grid;
     justify-content: center;
     grid-template-columns: 1fr 1fr;
     padding:20px;
     font-size: 20px;
+    height: 100%;
     
 
 }
 .elementModal:nth-child(4) {
     grid-column: 2;
-    grid-row: 3;
-    height:450px;
+    grid-row: 2;
     display: flex;
     justify-content: center;
     align-items: center;
     padding:20px;
-    line-height: 30px;
+    line-height: 20px;
+    height: auto;
+    
 }
 
 
