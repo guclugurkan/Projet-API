@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="recherche">
+        <label for="foodInput" class="element">Entrer un aliment ou un plat :</label>
+        <input type="text" placeholder="Ex: Pizza, ..." id="foodInput" class="element">
+        <button class="element" id="boutonRecherche">Rechercher</button>
+    </div>
+    <div class="petitText">
+        <p id="petitText"></p>
+    </div>
+
+    <div class="resultatContainer">
+    </div>
+
+    <div class="mealModal">
+        <div class="elementModal" id="imageCover"></div>
+        <div class="elementModal" id="title"></div>
+        <div class="elementModal" id="ingredients"></div>
+        <div class="elementModal" id="description"></div>
+    </div>
+
+    <div id="overlay"></div>
+</body>
+</html>
